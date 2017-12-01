@@ -2,7 +2,7 @@
 .main-bottom-section {
     margin-top: 65px;
     text-align: center;
-
+    height: 1000px;
 }
 
 .item {
@@ -12,13 +12,46 @@
     margin-bottom: 20px;
     padding-top: 20px;
     cursor: pointer;
+    height: 133px;
+}
+.items{
+    height: 120px;
 }
 
 .item-image {
     width: 100%;
     display: block;
 }
-
+.tops{
+    background-image: url("../img/Tops.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.bottoms{
+    background-image: url("../img/bottoms.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.accessories{
+    background-image: url("../img/accessories.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.collection{
+    background-image: url("../img/collection.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.kicks{
+    background-image: url("../img/kicks.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.hats{
+    background-image: url("../img/hats.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 .full-width-item {
     width: 40%;
     margin:0 auto 20px;
@@ -31,7 +64,12 @@
     width: 40%;
     margin:0 auto 20px;
     cursor: pointer;
+    height: 285px;
 
+}
+
+body{
+    height: 100vh;
 }
 
 
